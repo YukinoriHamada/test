@@ -1,0 +1,23 @@
+{
+  "name": "project11104",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coverage":"solidity-coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^3.0.0",
+    "mocha": "^6.2.2",
+    "openzeppelin-solidity": "^1.12.0",
+    "solidity-coverage": "^0.6.7"
+  }
+}
